@@ -3,20 +3,20 @@
 /* ============================================= */
 
 .container {
-    padding: 0 10px;
+    padding: 0 $space;
   }
   
   .row {
     display: flex;
     flex-direction: column;
-    padding: 1em 10px;
+    padding: 1em $space;
   }
   
   [class^=col] {
     margin-top: 10px;
     flex-basis: 100%;
     min-height: 25px;
-    padding: 10px;
+    padding: $space;
     border-radius: 5px;
   }
   

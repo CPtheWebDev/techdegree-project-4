@@ -90,11 +90,11 @@
     }
     
     .btn {
-      padding: 10px 30px;
+      padding: $space 30px;
     }
     
     .btn + .btn {
-      margin-left: 10px;
+      margin-left: $space;
     }
     
     .logo {
